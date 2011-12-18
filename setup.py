@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='panya-social',
-    version='0.0.6',
+    version='0.0.7',
     description='Panya social app.',
     long_description = open('README.rst', 'r').read() + open('AUTHORS.rst', 'r').read() + open('CHANGELOG.rst', 'r').read(),
     author='Praekelt Foundation',
@@ -23,7 +23,7 @@ setup(
         'django-friends==0.2.dev1',
         'django-notification',
         'django-socialregistration==0.4.1.tokenstore.1',
-        'facebook-sdk==0.2.0',
+        'facebook-sdk',
         'panya',
     ],
     include_package_data=True,
